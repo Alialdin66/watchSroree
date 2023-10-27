@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: -50px;
+    
+}
+
+.collapse .logo img{
+    width: 150px;
+}
+.collapse a {
+    appearance: none;
+
+    background-color: transparent;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    margin:0 10px;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding:1rem;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    transition: 0.4s ease;
+
+   }
+   
+   .collapse a:disabled {
+    pointer-events: none;
+   }
+   
+   .collapse a:hover {
+    color: #fff;
+    background-color: #e84444;
+    box-shadow: rgba(185, 16, 16, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+
+   .con1{
+    background-color: rgb(247, 247, 247);
+   }
+   button{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    background: red;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    z-index: 1;
+}
+ button span{
+    background: rgb(54, 52, 52);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+
+}
+.header h1{
+    font-size: 55px;
+}
+.header{
+    margin-top: 200px;
+}
+.row .card-img-top{
+    transform: scale(1.06);
+    transition: all 0.5s ease;
+}
+.row .card-img-top:hover{
+    filter: brightness(0.6);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.gallery .container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.gallery .single-gallery {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.gallery .single-gallery .big-img {
+    height: 690px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.gallery .single-gallery .small-img {
+    height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery .row .gallery-img {
+    transform: scale(1.06);
+    transition: all 0.5s ease;
+
+}
+.gallery .row .gallery-img:hover {
+    filter: brightness(0.6);
+    transform: scale(1);
+    transition: all 0.5s ease;
+
+}
+.populrItems {
+    padding: 30px 0;
+}
+.populrItems .heading {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.populrItems .heading h2 {
+    color: #000;
+    font-size: 48px;
+    font-family: 700;
+    line-height: 1;
+    margin-bottom: 17px;
+    padding-top: 30px;
+}
+
+.populrItems .heading p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #777;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.populrItems .box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.populrItems .watch {
+    position: relative;
+    border-bottom: 3px solid #f81f1f;
+}
+
+.populrItems .watch img {
+    width: 100%;
+}
+
+.populrItems .watch i {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+}
+
+.populrItems .watch a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff2020;
+    padding: 20px;
+}
+.populrItems .watch a {
+    opacity: 0;
+    transition: all .5s ease;
+
+}
+
+.populrItems .watch i {
+    opacity: 0;
+    transition: all .5s ease;
+
+}
+
+.populrItems .watch:hover i {
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+.populrItems .watch:hover a {
+    opacity: 1;
+    transition: all .5s ease;
+    padding-bottom: 20px;
+}
+
+
+header {
+    background-color: rgb(240,240,242);
+    margin-top: 50px;
+}
+
+header .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+header .container .row h1 {
+    font-size: 80px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: rgb(11, 28, 57);
+}
+
+header .container .row p {
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: rgb(33, 32, 37);
+    padding: 30px 0;
+}
+
+header .container .row a {
+    padding: 15px 29px;
+    background: rgb(74,74,75);
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+header .container .row a {
+    background: linear-gradient(to left , #4a4a4b , #4a4a4b) no-repeat;
+    background-size: 0%;
+    background-color: #ff2020;
+    border: none;
+    transition: all 0.5s ease;
+
+}
+
+header .container .row a:hover {
+    background-size: 100%;
+}
+
+/************************ Start Media Query *****************************/
+
+@media only screen and (min-width: 0px) and (max-width: 575px){
+    header .container .row {
+        padding: 50px 0px;
+    }
+    header .container .row h1 {
+    font-size: 35px;
+    }
+    header .container .row img {
+        display: none;
+    }
+
+    .popularItems .heading h2{
+        font-size: 33px;
+    }
+    .chooseWatch .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .chooseWatch .text h2{
+        font-size: 30px;
+    }
+    .chooseWatch img{
+        padding: 30px 0px;
+    }
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    header .container .row h1 {
+    font-size: 35px;
+    }
+    header .container .row img {
+        height:400px ;
+    }
+    .newArrivals .boxes .box a{
+        font-size: 17px;
+    }
+    .popularItems .box .text a{
+        font-size: 17px;
+    }
+    .chooseWatch .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .chooseWatch .text h2{
+        font-size: 30px;
+    }
+    .chooseWatch img{
+        padding: 30px 0px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    header .container .row h1 {
+        font-size: 50px;
+    }
+    header .container .row img {
+        height:500px ;
+    }
+    .newArrivals .boxes .box a{
+        font-size: 17px;
+    }
+    
+    .chooseWatch .text h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .chooseWatch .text p{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    header .container .row h1 {
+        font-size: 60px;
+    }
+    header .container .row img {
+        height:500px ;
+    }
+    .chooseWatch .text h2{
+        font-size: 43px;
+    }
+}
+
+
